@@ -17,4 +17,4 @@
     UefiApplicationEntryPoint
     UefiLib
     DebugLib
-    
+    UefiBootServicesTableLib
