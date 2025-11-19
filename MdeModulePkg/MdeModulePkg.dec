@@ -1878,7 +1878,7 @@
   ## This PCD defines the times to print hello world string.
   #  This PCD is a sample to explain UINT32 PCD usage.
   # @Prompt HellowWorld print times.
-  gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintTimes|1|UINT32|0x40000005
+  gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintTimes|5|UINT32|0x40000005
 
   ## This PCD defines the HelloWorld print string.
   #  This PCD is a sample to explain String typed PCD usage.
