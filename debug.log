@@ -1,0 +1,97 @@
+[2J[001;001H[=3h[2J[001;001H[2J[001;001H[8;056;240t[2J[001;001H[2J[001;001H[=3h[2J[001;001H[2J[001;001H[8;042;160t[2J[001;001HBdsDxe: loading Boot0002 "UEFI QEMU HARDDISK QM00001 " from PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Master,0x0)
+BdsDxe: starting Boot0002 "UEFI QEMU HARDDISK QM00001 " from PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Master,0x0)
+[2J[001;001H[001;001HUEFI Interactive Shell v2.2
+EDK II
+UEFI v2.70 (EDK II, 0x00010000)
+[1m[33m[40mMapping table[0m[37m[40m
+[1m[33m[40m      FS0:[0m[37m[40m [1m[37m[40mAlias(s):[0m[37m[40mHD0a1:;BLK1:
+          PciRoot(0x0)/Pci(0x1,0x1)/Ata(0x0)/HD(1,MBR,0xBE1AFDFA)
+[1m[33m[40m     BLK0:[0m[37m[40m [1m[37m[40mAlias(s):[0m[37m[40m
+          PciRoot(0x0)/Pci(0x1,0x1)/Ata(0x0)
+[1m[33m[40m     BLK2:[0m[37m[40m [1m[37m[40mAlias(s):[0m[37m[40m
+          PciRoot(0x0)/Pci(0x1,0x1)/Ata(0x0)
+[011;001HPress [1m[37m[40mESC[0m[37m[40m in 5 seconds to skip [1m[33m[40mstartup.nsh[0m[37m[40m or any other key to continue.[011;001HPress [1m[37m[40mESC[0m[37m[40m in 4 seconds to skip [1m[33m[40mstartup.nsh[0m[37m[40m or any other key to continue.
+[012;001H[1m[33m[40mShell> [0m[37m[40m[012;008Hf[012;009H[012;009Hd[012;010H[012;010Hs[012;011H[012;010H [012;010H[012;010Hs[012;011H[012;010H [012;010H[012;009H [012;009H[012;009Hs[012;010H[012;010H0[012;011H[012;011H:[012;012H[012;012H
+[013;001H[1m[33m[40mFS0:\> [0m[37m[40m[013;008HP[013;009H[013;009Hr[013;010H[013;008HProtocol.efi[013;020H[013;020H
+Hello, this is an INFO message.
+Status: Success
+Hello, UEFI World!
+NoHandles: 2
+OpenProtocol Status: Success
+Mode 0, H = 1280, V=800.
+Mode 1, H = 640, V=480.
+Mode 2, H = 800, V=480.
+Mode 3, H = 800, V=600.
+Mode 4, H = 832, V=624.
+Mode 5, H = 960, V=640.
+Mode 6, H = 1024, V=600.
+Mode 7, H = 1024, V=768.
+Mode 8, H = 1152, V=864.
+Mode 9, H = 1152, V=870.
+Mode 10, H = 1280, V=720.
+Mode 11, H = 1280, V=760.
+Mode 12, H = 1280, V=768.
+Mode 13, H = 1280, V=960.
+Mode 14, H = 1280, V=1024.
+Mode 15, H = 1360, V=768.
+Mode 16, H = 1366, V=768.
+Mode 17, H = 1400, V=1050.
+Mode 18, H = 1440, V=900.
+Mode 19, H = 1600, V=900.
+Mode 20, H = 1600, V=1200.
+Mode 21, H = 1680, V=1050.
+Mode 22, H = 1920, V=1080.
+Mode 23, H = 1920, V=1200.
+Mode 24, H = 1920, V=1440.
+Mode 25, H = 2000, V=2000.
+Mode 26, H = 2048, V=1536.
+Mode 27, H = 2048, V=2048.
+Mode 28, H = 2560, V=1440.
+Mode 29, H = 2560, V=1600.
+[042;001H[1m[33m[40mFS0:\> [0m[37m[40m[042;008Hs[042;009H[042;008H [042;008H[042;008H[042;008Hl[042;009H[042;009Hs[042;010H[042;010H
+[042;001HDirectory of: [1m[37m[40mFS0:\[0m[37m[40m
+11/12/2025  18:29 <DIR>         8,192  [1m[34m[40mEFI[0m[37m[40m
+11/14/2025  02:24               5,888  [1m[32m[40mHelloWorld.efi[0m[37m[40m
+11/21/2025  11:04               1,604  NvVars
+11/21/2025  20:03              10,112  [1m[32m[40mProtocol.efi[0m[37m[40m
+          3 File(s)      17,604 bytes
+          1 Dir(s)
+[042;001H[1m[33m[40mFS0:\> [0m[37m[40m[042;008HH[042;009H[042;009He[042;010H[042;008HHelloWorld.efi[042;022H[042;022H
+Hello, UEFI World!
+[042;001H[1m[33m[40mFS0:\> [0m[37m[40m[042;008HHelloWorld.efi[042;022H[042;008Hls            [042;010H[042;008HProtocol.efi[042;020H[042;020H
+Hello, this is an INFO message.
+Status: Success
+Hello, UEFI World!
+NoHandles: 2
+OpenProtocol Status: Success
+Mode 0, H = 1280, V=800.
+Mode 1, H = 640, V=480.
+Mode 2, H = 800, V=480.
+Mode 3, H = 800, V=600.
+Mode 4, H = 832, V=624.
+Mode 5, H = 960, V=640.
+Mode 6, H = 1024, V=600.
+Mode 7, H = 1024, V=768.
+Mode 8, H = 1152, V=864.
+Mode 9, H = 1152, V=870.
+Mode 10, H = 1280, V=720.
+Mode 11, H = 1280, V=760.
+Mode 12, H = 1280, V=768.
+Mode 13, H = 1280, V=960.
+Mode 14, H = 1280, V=1024.
+Mode 15, H = 1360, V=768.
+Mode 16, H = 1366, V=768.
+Mode 17, H = 1400, V=1050.
+Mode 18, H = 1440, V=900.
+Mode 19, H = 1600, V=900.
+Mode 20, H = 1600, V=1200.
+Mode 21, H = 1680, V=1050.
+Mode 22, H = 1920, V=1080.
+Mode 23, H = 1920, V=1200.
+Mode 24, H = 1920, V=1440.
+Mode 25, H = 2000, V=2000.
+Mode 26, H = 2048, V=1536.
+Mode 27, H = 2048, V=2048.
+Mode 28, H = 2560, V=1440.
+Mode 29, H = 2560, V=1600.
+[042;001H[1m[33m[40mFS0:\> [0m[37m[40m
